@@ -5,15 +5,15 @@
 
 ESP8266 Server WebServer (80);
 String webpage = "<H1> Belajar <H1> <p> <a href=\"on\"> <button> di </button> </a> & nbsp & nbsp; <a href=\"off\"> <button > mati </button> </a> </p> & nbsp & nbsp; ";
-char auth [] = "aW4SNEmR_XyQ2PPN2YO3xGAeRdPaujG1";
-char ssid [] = "MAHASISWATERZOLIMI";
-char pass [] = "iuytrewq";
+char auth [] = "masukan kode token";
+char ssid [] = "nama hospot";
+char pass [] = "pasword hospot";
 batal penyiapan () {
   // letakkan kode penyiapan Anda di sini, untuk dijalankan sekali:
  Serial.begin (9600);
  Serial.println ();
  pinMode (D5, OUTPUT);
- WiFi.begin ("MAHASISWATERZOLIM", "iuytrewq");
+ WiFi.begin ("nama hospotM", "pasword hospot");
  Blynk.begin (auth, ssid, pass);
 
  Serial.print ("Terhubung");
